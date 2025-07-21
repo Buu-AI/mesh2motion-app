@@ -69,8 +69,8 @@
                     style="display: flex; flex-direction: column; gap: 1rem; background: rgba(28, 32, 39, 0.4); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 8px; padding: 1rem; backdrop-filter: blur(10px);">
                     <p style="margin: 0; color: hsl(240 14% 89%); font-weight: 500;">Reference model:</p>
                     <select id="model-selection">
-                        <option value="models/human-mannequin.glb">Human</option>
-                        <option value="models/fox.glb">Fox</option>
+                        <option value="https://cdn.buu.fun/9763aef2.glb">Spidey</option>
+                        <option value="https://cdn.buu.fun/86ea56d5.glb">Lion</option>
                         <option value="models/seagull.glb">Bird</option>
                     </select>
                     <button id="load-model-button">Load</button>
@@ -265,16 +265,23 @@
                         </span>
                     </button>
                     <a id="download-hidden-link" href="#" style="display:none"></a>
+
                 </div>
             </span>
-        </div>
-    </div> <!-- end tool-panel-->
 
+        </div>
+
+
+    </div> <!-- end tool-panel-->
+    <div>
+    </div>
     <!-- info panel for messages and information-->
     <div id="info-panel">
         <div id="info-messaging"> </div>
     </div>
-
+    <!--   <button id="reset-button-skeleton-position" class="rest-button">
+                    <span>Reset</span>
+                </button> -->
     <!-- github project link-->
 </body>
 
